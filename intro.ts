@@ -11,6 +11,12 @@ let userId: number = 33.5
 
 let isLoggedIn: boolean = false
 
+// i can write it also without : type.
+
+let num = 1234
+
+num.toFixed()
+
 
 
 export{}
