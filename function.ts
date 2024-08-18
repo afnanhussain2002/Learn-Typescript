@@ -10,4 +10,17 @@ function getUpper(value: string) {
 
 getUpper('Afnan Hussain')
 
+// multiple value
+
+function singUp(name: string, email: string, isMale:boolean) {
+    return {
+     name,
+        email,
+          isMale
+
+    }
+}
+
+singUp('Afnan', 'afnan@gmail.com', true)
+
 export{}
