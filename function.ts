@@ -58,6 +58,11 @@ heros.map(hero =>{
 function consoleError(errMsg:string): void {
     console.log(errMsg);
 }
+// some kind of function never return value
+
+function handleError(errMsg:string): never {
+    throw new Error(errMsg);
+}
 
 
 
