@@ -44,4 +44,15 @@ const getHello = (s: string):string =>{
     return ""
 }
 
+// write a map func where ts automatic know what the value is
+
+// const heros = ["thor", "spiderMan", "superMan"]
+const heros = [1, 2, 3]
+
+heros.map(hero =>{
+    return `hero is ${hero}`
+})
+
+
+
 export {};
