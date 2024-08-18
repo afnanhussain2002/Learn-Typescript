@@ -53,6 +53,12 @@ heros.map(hero =>{
     return `hero is ${hero}`
 })
 
+// if function not return anything we can use "void"
+
+function consoleError(errMsg:string): void {
+    console.log(errMsg);
+}
+
 
 
 export {};
