@@ -4,4 +4,10 @@ function addTow(num:number) {
 
 addTow(4)
 
+function getUpper(value: string) {
+    return value.toUpperCase()
+}
+
+getUpper('Afnan Hussain')
+
 export{}
