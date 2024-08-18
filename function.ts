@@ -38,4 +38,10 @@ let loginUser = (name: string, email:string, isMale: boolean = true) =>{
 
 loginUser("Afnan", "afnan@gmail.com")
 
+// arrow func with have to return string
+
+const getHello = (s: string):string =>{
+    return ""
+}
+
 export {};
