@@ -4,6 +4,13 @@ function addTow(num: number) {
 
 addTow(4);
 
+// have to return a number
+function addTow2(num: number): number {
+  return num + 2;
+}
+
+addTow2(4);
+
 function getUpper(value: string) {
   return value.toUpperCase();
 }
