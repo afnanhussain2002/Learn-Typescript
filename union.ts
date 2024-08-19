@@ -29,5 +29,7 @@ function getId(id: number | string){
 getId(34)
 getId('jfdsfjsfj32')
 
+
+
 export{}
 
