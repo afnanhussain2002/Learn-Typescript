@@ -28,5 +28,17 @@ let myUser: Super = {
 
 myUser.SuperName = "Afnan"
 // myUser._id = "fjjf" cant change the _id becouse it was readOnly
+
+type cardNumber = {
+    cardnumber: string
+}
+
+type cardDate = {
+    carddate: string
+}
+
+ type cardDetails = cardNumber & cardDate &{
+    cvv: number
+ }// I can combine 2 type using "&"
 export{}
 
