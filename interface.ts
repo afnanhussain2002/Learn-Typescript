@@ -11,14 +11,19 @@ interface User{
     githubId: string
 }
 
-const afnan: User = {email: "afnan@gmail.com", userId:12,
+interface Admin extends User{
+    role:"admin" | "nadmin"
+}
+
+const afnan: Admin = {email: "afnan@gmail.com", userId:12,
     system: () =>{
         return "Afnan Hussain"
     },
     system2: (couponName:"Talu2") =>{
         return 12
     },
-    githubId:"afnanhussain2002"
+    githubId:"afnanhussain2002",
+    role:"admin"
 }
 
 export{}
