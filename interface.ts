@@ -5,3 +5,5 @@ interface User {
 }
 
 const afnan: User = {email: "afnan@gmail.com", userId:12}
+
+export{}
