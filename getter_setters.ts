@@ -11,6 +11,10 @@ class User{
 
     }
 
+    private deleteToken(){
+        return "Token deleted"
+    }
+
    get getAppleEmail():string{
         return `apple${this.email}`
     }
@@ -28,6 +32,7 @@ class User{
 
 
 }
+
 
 
 
