@@ -7,6 +7,10 @@ class User{
     ){
 
     }
+
+   get getAppleEmail():string{
+        return `apple${this.email}`
+    }
 }
 
 
