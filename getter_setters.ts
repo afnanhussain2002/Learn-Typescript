@@ -1,5 +1,6 @@
 class User{
     private _courseCount = 1
+    protected _shareCourse = 2
 
 
     readonly city: string = "Sylhet"
@@ -31,6 +32,14 @@ class User{
     }
 
 
+}
+
+class SubUser extends User{
+    isFriend: boolean = true
+
+    changeCourseCount (){
+        this._shareCourse = 4
+    }
 }
 
 
