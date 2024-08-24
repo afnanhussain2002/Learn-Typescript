@@ -23,3 +23,9 @@ function getSearch<T>(product:T[]): T {
   const myIndex = 2
   return product[myIndex]
 }
+
+// arrow func with generics 
+
+const getApple = <T>(apple: T[]) : T =>{
+    return apple[3]
+}
