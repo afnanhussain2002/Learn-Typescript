@@ -29,3 +29,25 @@ function getSearch<T>(product:T[]): T {
 const getApple = <T>(apple: T[]) : T =>{
     return apple[3]
 }
+
+// generics class
+
+interface Quiz{
+    name: string,
+    type: string
+}
+
+
+interface Course{
+    name:String,
+    author:String,
+    Subject:String
+}
+
+class Sellable<T>{
+    public cart: T[] = []
+
+    addToCart(product:T){
+        this.cart.push(product)
+    }
+}
