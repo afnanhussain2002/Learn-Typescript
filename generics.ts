@@ -9,4 +9,9 @@ function indetityThree<Type>(val: Type): Type{
     return val
 }
 
-indetityThree("3")
+interface Bottle{
+    brand: string,
+    quintity: number
+}
+
+indetityThree<Bottle>({brand:"Mugdho", quintity:23})
